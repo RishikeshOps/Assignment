@@ -1,0 +1,6 @@
+version : "3.3"
+services: 
+  web:
+    image: rishikeshops/hello-world
+    ports :
+         - "8080:8080"
