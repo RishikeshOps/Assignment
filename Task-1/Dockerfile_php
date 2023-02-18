@@ -3,3 +3,4 @@ COPY index.php /var/www/html/
 EXPOSE 80
 
 # Command to build this file `docker build -t rishikeshops/php-hellow-world -f Dockerfile_php .`
+# if you want directly run this so use  `docker run -d -p 80:80 rishikeshops/php-hellow-world`
