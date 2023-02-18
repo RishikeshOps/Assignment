@@ -1,6 +1,10 @@
 version : "3.3"
 services: 
-  web:
+  web-python:
     image: rishikeshops/hello-world
-    ports :
+    ports:
          - "8080:8080"
+  web-php:
+    image: rishikeshops/php-hellow-worl
+    ports:
+         - "80:80"
