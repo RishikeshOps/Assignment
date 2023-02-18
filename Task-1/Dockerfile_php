@@ -1,3 +1,5 @@
 FROM php:7.4-apache
 COPY index.php /var/www/html/
 EXPOSE 80
+
+# Command to build this file `docker build -t rishikeshops/php-hellow-world -f Dockerfile_php .`
