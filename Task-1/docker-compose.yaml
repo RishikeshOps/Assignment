@@ -5,6 +5,6 @@ services:
     ports:
          - "8080:8080"
   web-php:
-    image: rishikeshops/php-hellow-worl
+    image: rishikeshops/php-hellow-world
     ports:
          - "80:80"
