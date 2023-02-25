@@ -6,7 +6,7 @@ class TestATGWorldWebsite(unittest.TestCase):
 
     def test_website_loading(self):
         # Set up the URL to connect
-        url = "https://jenkins.rushikesh.me/"
+        url = "http://jenkins.rushikesh.me/"
         print(f"Connecting to {url}...")
 
         # Connect to the website
