@@ -12,7 +12,7 @@ class TestATGWorldWebsite(unittest.TestCase):
         # Connect to the website
         response = requests.get(url)
         print(f"Response status code: {response.status_code}")
-        print(f"Response content: {response.content[:50]}...")
+        print(f"Response content: {response.content[:80]}...")
 
         # Verify the response code
         self.assertEqual(response.status_code, 200)
